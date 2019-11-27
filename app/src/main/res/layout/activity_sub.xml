@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color333333"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="减分规则"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="逃课一次减分数目"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerTruancy"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/sub_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="早退一次减分数目"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerEarly"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/sub_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="迟到一次减分数目"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerLate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/sub_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="请假一次减分数目"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinnerExcuse"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/sub_score" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/color666666"
+        android:text="保存设置"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>

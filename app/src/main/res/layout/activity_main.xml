@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color333333"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="教学助手"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@mipmap/image_main"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/btnSign"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/color666666"
+        android:text="课堂点名"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnScanAll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/color666666"
+        android:text="查看所有"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/color666666"
+        android:text="添加学生"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnOutput"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/color666666"
+        android:text="导出数据"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/color666666"
+        android:text="减分规则"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnClazz"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/color666666"
+        android:text="班级设置"
+        android:textColor="@color/colorFFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
